@@ -12,15 +12,20 @@ A Discord bot that enforces “productivity mode” by disconnecting opted-in us
 1. Clone repo
 2. Create `.env` with: 
 
+```powershell
 DISCORD_TOKEN=your_bot_token_here
 TIMEZONE=America/Los_Angeles
 TARGET_USER_ID=123456789012345678
+```
 
 3. Install dependencies:
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
+```
 
 4. Run:
+```powershell
 python vc_kicker.py
+```
