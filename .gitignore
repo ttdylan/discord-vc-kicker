@@ -6,10 +6,11 @@ __pycache__/
 # Virtual environments
 .venv/
 venv/
-
-# Secrets
+## Secrets
 .env
 .env.*
+!.env.example
+
 
 # OS / Editor
 .vscode/
